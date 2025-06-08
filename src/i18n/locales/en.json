@@ -1,0 +1,145 @@
+{
+  "language": {
+    "en": "English",
+    "th": "ไทย"
+  },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "contact": "Contact",
+    "orderNow": "Order Now"
+  },
+  "hero": {
+    "title": "Handcrafted Burgers",
+    "subtitle": "Unforgettable Taste",
+    "description": "Premium ingredients, artisanal craftsmanship, and bold flavors that elevate the classic American burger to gourmet heights.",
+    "exploreMenu": "Explore Our Menu",
+    "orderNow": "Order Now"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Discover our carefully crafted menu",
+    "categories": {
+      "burgers": "Burgers",
+      "sides": "Sides",
+      "drinks": "Drinks",
+      "desserts": "Desserts"
+    },
+    "featured": "Featured",
+    "addToOrder": "Add to Order",
+    "viewFullMenu": "View Full Menu"
+  },
+  "about": {
+    "title": "Our Story",
+    "subtitle": "The Legend of the Burger",
+    "story": "CraftBurger began in 1999 with a simple mission: to create the perfect burger. Our founder, CEO \"PB\", spent years perfecting recipes and sourcing the finest local ingredients.",
+    "values": {
+      "title": "Our Values",
+      "quality": "Quality Ingredients",
+      "craftsmanship": "Craftsmanship",
+      "innovation": "Innovation"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions or feedback? We'd love to hear from you.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  },
+  "order": {
+    "title": "Order Online",
+    "subtitle": "Enjoy our burgers at home or on the go",
+    "pickup": "Pickup",
+    "delivery": "Delivery",
+    "cart": {
+      "title": "Your Order",
+      "empty": "Your cart is empty",
+      "itemCount": "{{count}} items",
+      "subtotal": "Subtotal",
+      "deliveryFee": "Delivery Fee",
+      "total": "Total",
+      "checkout": "Checkout",
+      "payWithQR": "Pay with QR Code",
+      "scanToPay": "Scan to Pay",
+      "qrInstructions": "Please scan the QR code with your banking app to complete the payment",
+      "close": "Close",
+      "address": "Delivery Address",
+      "city": "City",
+      "zipCode": "ZIP Code",
+      "phone": "Phone Number"
+    }
+  },
+  "search": {
+    "placeholder": "Search menu items..."
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "emailOrUsername": "Email or Username",
+      "emailPlaceholder": "Enter your email or username",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot Password?",
+      "loginButton": "Login",
+      "loggingIn": "Logging in...",
+      "orContinueWith": "Or continue with",
+      "noAccount": "Don't have an account?",
+      "registerHere": "Register here"
+    },
+    "register": {
+      "title": "Create Account",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Enter your first name",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Enter your last name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "password": "Password",
+      "passwordPlaceholder": "Create a password",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "agreeToTerms": "I agree to the",
+      "termsOfService": "Terms of Service",
+      "registerButton": "Create Account",
+      "registering": "Creating account...",
+      "orRegisterWith": "Or register with",
+      "haveAccount": "Already have an account?",
+      "loginHere": "Login here"
+    },
+    "forgotPassword": {
+      "title": "Reset Password",
+      "description": "Enter your email address and we'll send you a link to reset your password.",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "sendButton": "Send Reset Link",
+      "sending": "Sending...",
+      "emailSent": "Email Sent!",
+      "checkEmail": "We've sent a password reset link to your email address.",
+      "backToLogin": "Back to Login"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "hours": "Hours",
+    "contact": "Contact",
+    "links": {
+      "title": "Links",
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "contact": "Contact",
+      "order": "Order Online",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  }
+}
