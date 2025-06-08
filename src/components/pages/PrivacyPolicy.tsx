@@ -8,8 +8,13 @@ const PrivacyPolicy: React.FC = () => {
       <div className="container-custom">
         <div className="bg-white rounded-xl shadow-lg p-8">
           <div className="mb-8">
+<<<<<<< HEAD
             <a 
               href="/" 
+=======
+            <a
+              href="/"
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
               className="inline-flex items-center text-gray-600 hover:text-primary-500 transition-colors"
             >
               <ArrowLeft className="mr-2" size={20} />
@@ -17,8 +22,13 @@ const PrivacyPolicy: React.FC = () => {
             </a>
           </div>
 
+<<<<<<< HEAD
           <h1 className="text-3xl font-bold mb-8">Privacy Policy - CraftBurger PB Shop</h1>
           
+=======
+          <h1 className="text-3xl font-bold mb-8">Privacy Policy - CraftBurger PB Store </h1>
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
           <div className="space-y-6">
             <section>
               <h2 className="text-xl font-bold mb-3">1. Data Collection</h2>
@@ -33,7 +43,11 @@ const PrivacyPolicy: React.FC = () => {
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section>
               <h2 className="text-xl font-bold mb-3">2. Data Use</h2>
               <p className="text-gray-700">
@@ -47,7 +61,11 @@ const PrivacyPolicy: React.FC = () => {
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section>
               <h2 className="text-xl font-bold mb-3">3. Data Sharing</h2>
               <p className="text-gray-700">
@@ -59,7 +77,11 @@ const PrivacyPolicy: React.FC = () => {
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section>
               <h2 className="text-xl font-bold mb-3">4. Data Security</h2>
               <p className="text-gray-700">
@@ -72,7 +94,11 @@ const PrivacyPolicy: React.FC = () => {
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section>
               <h2 className="text-xl font-bold mb-3">5. Your Rights</h2>
               <p className="text-gray-700">
@@ -85,14 +111,22 @@ const PrivacyPolicy: React.FC = () => {
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section className="pt-6 border-t">
               <h2 className="text-xl font-bold mb-3">Contact Us</h2>
               <p className="text-gray-700">For privacy-related inquiries:</p>
               <p className="text-gray-700">Email: {locationInfo.email}</p>
               <p className="text-gray-700">Phone: {locationInfo.phone}</p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <p className="italic mt-8 text-gray-600">Last updated: May 2025</p>
           </div>
         </div>

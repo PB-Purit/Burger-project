@@ -75,6 +75,7 @@
       "phone": "Phone Number"
     }
   },
+<<<<<<< HEAD
   "search": {
     "placeholder": "Search menu items..."
   },
@@ -127,6 +128,8 @@
       "backToLogin": "Back to Login"
     }
   },
+=======
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
   "footer": {
     "rights": "All rights reserved",
     "hours": "Hours",

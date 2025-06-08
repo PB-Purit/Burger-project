@@ -8,8 +8,13 @@ const TermsOfService: React.FC = () => {
       <div className="container-custom">
         <div className="bg-white rounded-xl shadow-lg p-8">
           <div className="mb-8">
+<<<<<<< HEAD
             <a 
               href="/" 
+=======
+            <a
+              href="/"
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
               className="inline-flex items-center text-gray-600 hover:text-primary-500 transition-colors"
             >
               <ArrowLeft className="mr-2" size={20} />
@@ -17,8 +22,13 @@ const TermsOfService: React.FC = () => {
             </a>
           </div>
 
+<<<<<<< HEAD
           <h1 className="text-3xl font-bold mb-8">Terms of Service - CraftBurger PB Shop</h1>
           
+=======
+          <h1 className="text-3xl font-bold mb-8">Terms of Service - CraftBurger PB Store </h1>
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
           <div className="space-y-6">
             <section>
               <h2 className="text-xl font-bold mb-3">1. Use of Service</h2>
@@ -32,7 +42,11 @@ const TermsOfService: React.FC = () => {
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section>
               <h2 className="text-xl font-bold mb-3">2. Orders and Payments</h2>
               <p className="text-gray-700">
@@ -45,7 +59,11 @@ const TermsOfService: React.FC = () => {
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section>
               <h2 className="text-xl font-bold mb-3">3. Food Allergies</h2>
               <p className="text-gray-700">
@@ -57,19 +75,31 @@ const TermsOfService: React.FC = () => {
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section>
               <h2 className="text-xl font-bold mb-3">4. Intellectual Property</h2>
               <p className="text-gray-700">
                 Our intellectual property:
                 <ul className="list-disc ml-6 mt-2 space-y-1">
+<<<<<<< HEAD
                   <li>All content and trademarks are owned by CraftBurger PB Shop</li>
+=======
+                  <li>All content and trademarks are owned by CraftBurger PB Store </li>
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
                   <li>No reproduction or distribution without permission</li>
                   <li>Unauthorized use may result in legal action</li>
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section>
               <h2 className="text-xl font-bold mb-3">5. Liability</h2>
               <p className="text-gray-700">
@@ -81,7 +111,11 @@ const TermsOfService: React.FC = () => {
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section>
               <h2 className="text-xl font-bold mb-3">6. Changes</h2>
               <p className="text-gray-700">
@@ -93,14 +127,22 @@ const TermsOfService: React.FC = () => {
                 </ul>
               </p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <section className="pt-6 border-t">
               <h2 className="text-xl font-bold mb-3">Contact Us</h2>
               <p className="text-gray-700">For any questions about these terms:</p>
               <p className="text-gray-700">Email: {locationInfo.email}</p>
               <p className="text-gray-700">Phone: {locationInfo.phone}</p>
             </section>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <p className="italic mt-8 text-gray-600">Last updated: May 2025</p>
           </div>
         </div>

@@ -1,27 +1,39 @@
 import React, { useState, useEffect } from 'react';
+<<<<<<< HEAD
 import { Menu, X, ShoppingBag, User } from 'lucide-react';
+=======
+import { Menu, X, ShoppingBag } from 'lucide-react';
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import Logo from './Logo';
 import CartModal from '../ui/CartModal';
 import LanguageSwitch from '../ui/LanguageSwitch';
+<<<<<<< HEAD
 import SearchBar from '../ui/SearchBar';
 import LoginModal from '../auth/LoginModal';
 import RegisterModal from '../auth/RegisterModal';
 import ForgotPasswordModal from '../auth/ForgotPasswordModal';
 import { useCart } from '../../hooks/useCart';
 import { MenuItem } from '../../types';
+=======
+import { useCart } from '../../hooks/useCart';
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isCartOpen, setIsCartOpen] = useState(false);
+<<<<<<< HEAD
   const [isSearchExpanded, setIsSearchExpanded] = useState(false);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isRegisterOpen, setIsRegisterOpen] = useState(false);
   const [isForgotPasswordOpen, setIsForgotPasswordOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const { getTotalItems, addToCart } = useCart();
+=======
+  const { getTotalItems } = useCart();
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
   const cartItems = getTotalItems();
   const { t } = useTranslation();
 
@@ -42,6 +54,7 @@ const Header: React.FC = () => {
     setIsOpen(!isOpen);
   };
 
+<<<<<<< HEAD
   const handleSearchItemSelect = (item: MenuItem) => {
     addToCart(item);
     // Optionally scroll to the item or show a notification
@@ -71,6 +84,8 @@ const Header: React.FC = () => {
     setIsLoginOpen(true);
   };
 
+=======
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
   const navItems = [
     { label: t('nav.home'), href: '#home' },
     { label: t('nav.menu'), href: '#menu' },
@@ -103,11 +118,14 @@ const Header: React.FC = () => {
           </nav>
           
           <div className="hidden md:flex items-center space-x-4">
+<<<<<<< HEAD
             <SearchBar
               isExpanded={isSearchExpanded}
               onToggle={() => setIsSearchExpanded(!isSearchExpanded)}
               onItemSelect={handleSearchItemSelect}
             />
+=======
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <LanguageSwitch />
             <button 
               onClick={() => setIsCartOpen(true)}
@@ -122,6 +140,7 @@ const Header: React.FC = () => {
                 </span>
               )}
             </button>
+<<<<<<< HEAD
             
             {isLoggedIn ? (
               <div className="relative">
@@ -146,6 +165,8 @@ const Header: React.FC = () => {
               </button>
             )}
             
+=======
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
             <a 
               href="#order" 
               className="btn-primary"
@@ -175,6 +196,7 @@ const Header: React.FC = () => {
               className="md:hidden bg-white"
             >
               <div className="container-custom py-4 flex flex-col space-y-4">
+<<<<<<< HEAD
                 <div className="flex items-center justify-between">
                   <SearchBar
                     isExpanded={isSearchExpanded}
@@ -183,6 +205,9 @@ const Header: React.FC = () => {
                   />
                   <LanguageSwitch />
                 </div>
+=======
+                <LanguageSwitch />
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
                 {navItems.map((item) => (
                   <a 
                     key={item.href} 
@@ -207,6 +232,7 @@ const Header: React.FC = () => {
                     </span>
                   )}
                 </button>
+<<<<<<< HEAD
                 
                 {!isLoggedIn && (
                   <button 
@@ -220,6 +246,8 @@ const Header: React.FC = () => {
                   </button>
                 )}
                 
+=======
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
                 <a 
                   href="#order" 
                   className="btn-primary w-full text-center"
@@ -234,6 +262,7 @@ const Header: React.FC = () => {
       </header>
 
       <CartModal isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+<<<<<<< HEAD
       <LoginModal 
         isOpen={isLoginOpen} 
         onClose={() => setIsLoginOpen(false)}
@@ -250,6 +279,8 @@ const Header: React.FC = () => {
         onClose={() => setIsForgotPasswordOpen(false)}
         onBackToLogin={handleBackToLogin}
       />
+=======
+>>>>>>> 9294362a294da8b71071034ad330cb6a36c8a271
     </>
   );
 };
